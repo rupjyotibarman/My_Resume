@@ -1,0 +1,20 @@
+A. Section 1 
+-----------------------------------------------------
+1. Just 1 Page
+2. Keep it clean, Use Formatting
+3. Font : Arial, Calibri, Times New Roman
+4. Font Size : 10- 12 pnt
+5. Avoid Paragraph, Use Bullet Points
+6. No Sentences bigger than 3 lines
+7. Avoid Typos and Grammar mistakes
+
+B. Section 2 
+-----------------------------------------------------
+1. Heading : Name,Location, Contact(Email, phone), LinkedIn, Github
+2. Skills : Languages, Technologies and Tools
+3. Work Experience : Company name, Position, Experience in bullet points.
+4. Experience should be highlighted : Accomplished X
+                                      By Implementing Y
+                                      Which Let to Z
+5. Personal Projects:
+6. Education 

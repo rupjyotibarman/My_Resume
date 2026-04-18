@@ -1,7 +1,99 @@
-\documentclass{article}
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
 \begin{document}
 
-Hello Rup — PDF is working! 
-ohh reallyy Great !!!
+%-------------------- HEADER --------------------
+\begin{center}
+    {\LARGE \textbf{Rupjyoti Barman}} \\
+    Guwahati \\
+    \href{mailto:rupjyoti921@gmail.com}{rupjyoti921@gmail.com} \quad | \quad +91-9101171366 \\
+    LinkedIn \quad | \quad GitHub
+\end{center}
+
+%-------------------- SKILLS --------------------
+\section*{Technical Skills}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Languages:} C\#, C++, C, Python, JavaScript, PHP, SQL
+    
+    \item \textbf{Technologies \& Tools:} .NET, ASP.NET Core Web API, ASP.NET MVC, Entity Framework Core, PostgreSQL, MySQL, MongoDB, Bootstrap, NumPy, Pandas, Matplotlib, Scikit-learn, Git, SVN, Jira, Miro, Confluence, TestRail
+\end{itemize}
+
+%-------------------- EXPERIENCE --------------------
+\section*{Experience}
+
+\textbf{Software Developer, BoldTek India Pvt. Ltd. – Guwahati} \hfill June 2023 -- Present
+
+\begin{itemize}[leftmargin=*]
+
+\item Designed and developed hardware diagnostic APIs using C\# in a layered architecture, where business logic interacts with native C++ DLLs to execute low-level hardware tests. Enabled seamless communication between managed and unmanaged components for real-time diagnostics.
+
+\item Implemented diagnostic modules including SMART health checks, disk read/verify operations, sleep/wake validation, IRQ validation, and ROM-based MAC address verification, ensuring system reliability and hardware stability.
+
+\item Integrated Windows Update Agent (WUA) API to programmatically scan, retrieve, and install driver updates from Microsoft servers, improving system maintenance and reducing manual intervention.
+
+\item Automated BIOS updates using HP Client Management Script Library (HPCMSL) via PowerShell, streamlining firmware upgrades across enterprise devices.
+
+\item Built real-time device monitoring using WMI by querying Plug-and-Play devices and subscribing to hardware events, enabling dynamic detection of device insertion and removal.
+
+\item Contributed to migration of multiple components from .NET 6 to .NET 9, resolving compatibility issues and leveraging modern framework enhancements.
+
+\item Led architectural improvement by decoupling dependency on an external diagnostic service. Packaged business logic, API layer, and native C++ DLLs into a unified NuGet package enabling local execution.
+
+\item Eliminated dependency on external service release cycles, significantly improving development velocity and reducing delays in feature delivery.
+
+\item Applied design patterns such as Facade and implemented Dependency Injection extensively to improve modularity, maintainability, and scalability.
+
+\item Worked on an ASP.NET Core MVC application managing INI configuration files, improving UI/UX and implementing regex-based validation for structured data.
+
+\item Developed full-stack features including CRUD operations and role-based access control (User, Developer, Admin) for managing version-based configuration data.
+
+\item Contributed across controller, service, and repository layers, ensuring clean architecture and efficient data flow.
+
+\item Worked with RPC-based service architecture for executing diagnostics remotely and later optimized it by transitioning to local execution.
+
+\item Collaborated with cross-functional global teams (India, Taiwan, US) to deliver features, debug issues, and ensure smooth integration.
+
+\end{itemize}
+
+%-------------------- PROJECTS --------------------
+\section*{Projects}
+
+\textbf{Ticket Management System (ASP.NET Core Web API)}
+
+\begin{itemize}[leftmargin=*]
+\item Developed a production-ready backend using ASP.NET Core Web API following SOLID principles and clean layered architecture (Controller–Service–Repository).
+
+\item Integrated PostgreSQL using Entity Framework Core and designed relational database models with proper entity relationships.
+
+\item Implemented JWT-based authentication and role-based authorization (User, Agent, Admin) to secure APIs.
+
+\item Built scalable REST APIs supporting complete ticket lifecycle (create, assign, update, delete) using DTO-based architecture, validation, global exception handling, and dependency injection.
+
+\item Implemented structured logging using Serilog for better debugging and monitoring of application behavior.
+\end{itemize}
+
+\textbf{Grade Prediction using Machine Learning}
+
+\begin{itemize}[leftmargin=*]
+    \item Developed a machine learning model using linear and logistic regression to predict student performance based on internal assessment data.
+    
+    \item Used NumPy, Pandas, Matplotlib, and Scikit-learn for data preprocessing, visualization, and model training.
+    
+    \item Analyzed student data patterns to generate predictive insights and improve accuracy of grade estimation.
+\end{itemize}
+
+%-------------------- EDUCATION --------------------
+\section*{Education}
+
+\textbf{B.Tech in Computer Science \& Engineering} \hfill Aug 2020 -- May 2023 \\
+North Eastern Regional Institute of Science and Technology (NERIST), Arunachal Pradesh
 
 \end{document}

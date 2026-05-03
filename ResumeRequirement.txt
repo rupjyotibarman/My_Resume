@@ -18,3 +18,57 @@ B. Section 2
                                       Which Let to Z
 5. Personal Projects:
 6. Education 
+-----------------------------------------------------------------------------------------
+🧠 PART 1: What actually gets you shortlisted (Important mindset)
+🔥 1. Recruiters scan in 7–10 seconds
+
+    They look for:
+
+    A. Clear role fit → “Is this guy a .NET backend dev?”
+    B. Impact → “Did he build anything meaningful?”
+    C. Depth → “Does he understand systems or just CRUD?”
+
+    👉 Your resume is already above average, but not optimized for quick scanning.
+
+🎯 2. You must show a clear identity
+
+    Right now you are:
+
+    A. .NET dev
+    B. System-level dev
+    C. Slight full-stack
+
+    👉 But recruiter should instantly see:
+
+    “.NET Backend + System Engineer”
+
+📊 3. Impact > Technology
+
+Bad:
+
+Used ASP.NET, EF Core, SQL
+
+Good:
+
+Built X system → improved Y → reduced Z%
+
+👉 You did good work, but impact is not highlighted enough
+
+⚠️ 4. Too many technologies = weaker profile
+
+Your skills section:
+
+Slightly overloaded
+Looks like “generalist”
+
+👉 For shortlist:
+
+Focus on core stack
+🚀 5. Architecture work = your biggest strength
+
+This point is GOLD:
+
+Migration from RPC → NuGet decoupled architecture
+
+👉 This alone can get you shortlisted
+But it’s not highlighted strongly enough

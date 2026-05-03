@@ -1,14 +1,19 @@
 \documentclass[a4paper,10pt]{article}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[
-    top=0.4in,
-    bottom=0.4in,
+    top=0.5in,
+    bottom=0.5in,
     left=0.5in,
     right=0.5in
 ]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{hyperref}
+\usepackage{xcolor}
+
+\pagestyle{empty}
 
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 
@@ -17,17 +22,27 @@
 %-------------------- HEADER --------------------
 \begin{center}
     {\LARGE \textbf{Rupjyoti Barman}} \\[6pt]
-    \href{mailto:rupjyoti921@gmail.com}{rupjyoti921@gmail.com} - +91-9101171366 \\
-    \href{https://www.linkedin.com/in/rupjyoti-barman-dev}{LinkedIn} - \href{https://github.com/rupjyotibarman}{GitHub}
+    \href{mailto:rupjyoti921@gmail.com}{rupjyoti921@gmail.com} \;|\; +91-9101171366 \\
+    \href{https://www.linkedin.com/in/rupjyoti-barman-dev}{LinkedIn} \;|\; \href{https://github.com/rupjyotibarman}{GitHub}
 \end{center}
+
+%-------------------- SUMMARY --------------------
+\section*{Summary}
+\textbf{.NET Backend Developer} with 3+ years of experience building scalable APIs and system-level diagnostic platforms for \textbf{HP client systems}. Strong expertise in \textbf{C\#}, \textbf{ASP.NET Core}, and managed--unmanaged interoperability, with experience in designing \textbf{decoupled architectures} and performance-critical backend systems.
 
 %-------------------- SKILLS --------------------
 \section*{Technical Skills}
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Languages:} C/C++, C\#, Python, JavaScript, SQL
+    \item \textbf{Languages:} C\#, C++, SQL, JavaScript
     
-    \item \textbf{Technologies \& Tools:} ASP.NET Core Web API, ASP.NET MVC, Entity Framework Core, PostgreSQL, MySQL, React, MongoDB, Bootstrap, NumPy, Pandas, Matplotlib, Scikit-learn, Git, Jira, Miro, Confluence, TestRail
+    \item \textbf{Frameworks:} ASP.NET Core (\textbf{Web API, MVC}), Entity Framework Core, React
+    
+    \item \textbf{Technologies:} REST APIs, WMI, WQL, ManagementEventWatcher, WUA API, HPCMSL, Windows System APIs
+    
+    \item \textbf{Architecture:} Clean Architecture, Layered Architecture, Dependency Injection, Factory Pattern, RPC
+    
+    \item \textbf{Tools:} Git, NuGet, SQL Server, PostgreSQL
 \end{itemize}
 
 %-------------------- EXPERIENCE --------------------
@@ -35,17 +50,20 @@
 
 \textbf{Software Developer, BoldTek India Pvt. Ltd. – Guwahati} \hfill June 2023 -- Present \\
 \textbf{Client: Hewlett-Packard (HP)}
+
 \begin{itemize}[leftmargin=*]
 
-\item Developed and enhanced an ASP.NET Core MVC application for managing INI-based configuration files of HP’s NPI (New Product Introduction) systems, supporting ODM, Developer, and Admin roles; implemented full-stack features including CRUD operations and role-based access control, integrated Entity Framework Core for data access and SQL Server (via SQL Server Management Studio) for database management, and applied regex-based validation while contributing across controller, service, and repository layers to maintain clean architecture and efficient data handling.
+\item Designed and developed centralized hardware diagnostic APIs using \textbf{C\# (.NET)}, serving as a shared backend consumed by multiple HP client applications; implemented \textbf{layered architecture} with native \textbf{C++ DLL} integration to perform diagnostics across disk (\textbf{SMART, Read/Verify}) and network (\textbf{NIC IRQ, ROM validation}), ensuring reliable system validation.
 
-\item Designed and developed Centralized Hardware Diagnostic APIs using C\# (.NET), serving as a shared backend consumed by multiple diagnostic UI applications of HP; in a layered architecture, integrating native C++ DLLs to perform low-level Diagnostics across system components; implemented Disk Diagnostics (Disk Read/Verify, SMART Health status) and Network Diagnostics (IRQ and ROM validation), along with Diagnostic modules for detecting available driver updates via Windows Update Agent (WUA) API and BIOS update checks for HP commercial systems using HP Client Management Script Library (HPCMSL), allowing users to search for available updates and choose to install; ensured reliable hardware testing and seamless managed–unmanaged interoperability.
+\item Led architectural redesign by migrating from a shared \textbf{RPC-based service} model to a decoupled \textbf{NuGet-based solution}; consolidated business logic, API layer, and diagnostic modules into a unified package enabling local execution and reducing failures caused by multi-team service instability.
 
-\item Developed a real-time Hardware Monitoring module using WMI by implementing ManagementEventWatcher with WQL queries (\_InstanceCreationEvent and \_InstanceDeletionEvent on Win32\_PnPEntity) to detect live device insertion and removal; designed an event-driven mechanism to notify subscribed UI components of device changes, so that UI can collect new List of Devices.
+\item Built a real-time hardware monitoring module using \textbf{WMI (ManagementEventWatcher)} with \textbf{WQL event subscriptions} on \texttt{Win32\_PnPEntity} to detect device insertion and removal; implemented an \textbf{event-driven mechanism} to notify UI components.
 
-\item Led architectural redesign of the centralized diagnostic platform by migrating from a shared service-based (RPC) architecture to a decoupled model; consolidated business logic, API layer, and native C++ diagnostic modules into a unified NuGet package for local execution, eliminating dependency on external service release cycles and mitigating failures from multi-team service instability, while applying Factory design pattern and Dependency Injection to improve modularity, maintainability, and scalability.
+\item Developed diagnostic modules for detecting driver updates via \textbf{Windows Update Agent (WUA) API} and BIOS update checks using \textbf{HPCMSL}, enabling user-driven update actions.
 
-\item Collaborated with cross-functional global teams (India, Taiwan, US) to deliver features, debug issues, and ensure smooth integration.
+\item Developed and enhanced an \textbf{ASP.NET Core MVC} application for managing INI-based configurations of HP NPI systems; implemented \textbf{CRUD operations}, \textbf{role-based access control}, and validation using \textbf{Entity Framework Core} and \textbf{SQL Server}.
+
+\item Collaborated with cross-functional global teams (India, Taiwan, US) to deliver features and resolve production issues.
 
 \end{itemize}
 
@@ -55,24 +73,17 @@
 \textbf{Ticket Management System (ASP.NET Core Web API)}
 
 \begin{itemize}[leftmargin=*]
-\item Developed a production-ready backend using ASP.NET Core Web API following SOLID principles and clean layered architecture (Controller–Service–Repository).
-Integrated PostgreSQL using Entity Framework Core and designed relational database models with proper entity relationships.
-Implemented JWT-based authentication and role-based authorization (User, Agent, Admin) to secure APIs.
 
-\item Built scalable REST APIs supporting complete ticket lifecycle (create, assign, update, delete) using DTO-based architecture, validation, global exception handling, and dependency injection.
-Implemented structured logging using Serilog for better debugging and monitoring of application behavior.
-\end{itemize}
+\item Developed a production-ready backend using \textbf{ASP.NET Core Web API} following \textbf{SOLID principles} and \textbf{clean architecture}; designed data models using \textbf{Entity Framework Core} with \textbf{PostgreSQL} and implemented \textbf{JWT-based authentication}.
 
-\noindent\textbf{Grade Prediction using Machine Learning}
+\item Built scalable \textbf{REST APIs} for ticket lifecycle management using \textbf{DTO-based design}, validation, and \textbf{dependency injection}; implemented logging using \textbf{Serilog}.
 
-\begin{itemize}[leftmargin=*]
-    \item Developed a machine learning model using linear and logistic regression to predict student performance from internal assessment data, leveraging NumPy, Pandas, Matplotlib, and Scikit-learn for preprocessing, visualization, training, and evaluation.
 \end{itemize}
 
 %-------------------- EDUCATION --------------------
 \section*{Education}
 
-\textbf{B.Tech in Computer Science \& Engineering} \hfill May 2023 \\
+\textbf{B.Tech in Computer Science \& Engineering - CGPA: 8.01/10} \hfill May 2023 \\
 North Eastern Regional Institute of Science and Technology (NERIST), Arunachal Pradesh
 
 \end{document}

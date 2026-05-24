@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.18)  24 MAY 2026 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.18)  24 MAY 2026 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -263,11 +263,15 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks24
 )
+Overfull \hbox (1.76271pt too wide) in paragraph at lines 39--40
+[]\T1/cmr/bx/n/10 Windows Sys-tem APIs: \T1/cmr/m/n/10 WMI, WQL, Man-age-mentEvent-Watcher, WUA API, HPCMSL, De-vi-ceIo-Con-trol, P/Invoke,
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 62.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 62.
- [1
+(Font)              <5> on input line 60.
+[1
 
 {C:/Users/rupba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (Rupjyoti_Resume.aux)
  ***********
@@ -278,17 +282,17 @@ Package rerunfilecheck Info: File `Rupjyoti_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9817 strings out of 467871
- 151241 string characters out of 5418376
+ 9819 strings out of 467871
+ 151300 string characters out of 5418376
  594508 words of memory out of 5000000
- 38621 multiletter control sequences out of 15000+600000
+ 38623 multiletter control sequences out of 15000+600000
  632993 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,979b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,1020b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/rupba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rupjyoti_Resume.pdf (2 pages, 78605 bytes).
+Output written on Rupjyoti_Resume.pdf (2 pages, 80006 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 235 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

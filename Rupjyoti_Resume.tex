@@ -40,16 +40,16 @@
 %-------------------- EXPERIENCE --------------------
 \section*{Experience}
 
-\textbf{Software Developer, BoldTek India Pvt. Ltd. -- Guwahati} \hfill June 2023 -- Present \\
+\textbf{Software Developer, BoldTek India Pvt. Ltd. - Guwahati} \hfill June 2023 - Present \\
 \textbf{Client: Hewlett-Packard (HP)}
 
 \begin{itemize}[leftmargin=*, itemsep=2pt, parsep=0pt, topsep=3pt]
 
-\item Led the India team in migrating from a \textbf{shared RPC-based Windows Service architecture} to a \textbf{decoupled 3-layer NuGet package} (\textbf{Business Logic}, \textbf{C\# Interop Wrapper} via \textbf{P/Invoke}, Native \textbf{C++ DLL}) with \textbf{Factory Pattern}-based dependency injection, eliminating shared service dependency across multiple HP teams; achieved \textbf{100\% elimination of third-party release delays} (previously 10--15 days) and reduced \textbf{diagnostic development cycle from 4 to 3 sprints} (40 to 30 working days, a \textbf{25\% reduction}) by removing 2 redundant architectural layers (Service layer and Service Manager routing layer), resolving cross-team unhandled exceptions and \textbf{sleep/hibernate-induced service failures} consumed by \textbf{HP PC Hardware Diagnostics}.
+\item Led the India team in migrating from a \textbf{shared RPC-based Windows Service architecture} to a \textbf{decoupled 3-layer NuGet package} (\textbf{Business Logic}, \textbf{C\# Interop Wrapper} via \textbf{P/Invoke}, Native \textbf{C++ DLL}) with \textbf{Factory Pattern}-based dependency injection, eliminating shared service dependency across multiple HP teams; achieved \textbf{100\% elimination of third-party release delays} (previously 10-15 days) and reduced \textbf{diagnostic development cycle from 4 to 3 sprints} (40 to 30 working days, a \textbf{25\% reduction}) by removing 2 redundant architectural layers (Service layer and Service Manager routing layer), resolving cross-team unhandled exceptions and \textbf{sleep/hibernate-induced service failures} consumed by \textbf{HP PC Hardware Diagnostics}.
 
-\item Migrated \textbf{6 hardware diagnostic modules} (Storage: \textbf{DRV Read/Verify}, \textbf{SMART Health Monitor}, \textbf{SMART Data Collection}; Network: \textbf{NIC IRQ Verification}, \textbf{ROM/MAC Validation}; Audio: \textbf{Audio Playback Test}) from the legacy \textbf{RPC-based Windows Service} onto the new \textbf{NuGet architecture}; additionally engineered \textbf{2 diagnostic modules from scratch} -- \textbf{Driver Update Detection} (\textbf{WUA API}) and \textbf{BIOS Update Check} (\textbf{HP CMSL}, commercial systems) -- consolidating all into a \textbf{centralized diagnostic backend} architected to support multiple HP client applications with zero external service dependency.
+\item Migrated \textbf{6 hardware diagnostic modules} (Storage: \textbf{DRV Read/Verify}, \textbf{SMART Health Monitor}, \textbf{SMART Data Collection}; Network: \textbf{NIC IRQ Verification}, \textbf{ROM/MAC Validation}; Audio: \textbf{Audio Playback Test}) from the legacy \textbf{RPC-based Windows Service} onto the new \textbf{NuGet architecture}; additionally engineered \textbf{2 diagnostic modules from scratch} - \textbf{Driver Update Detection} (\textbf{WUA API}) and \textbf{BIOS Update Check} (\textbf{HP CMSL}, commercial systems) - consolidating all into a \textbf{centralized diagnostic backend} architected to support multiple HP client applications with zero external service dependency.
 
-\item Replaced a service-based device discovery architecture (which required a \textbf{2--3 minute service restart} per hardware change) by engineering a \textbf{real-time WMI monitoring module} (\textbf{ManagementEventWatcher} + \textbf{WQL} on Win32\_PnPEntity) packaged into the shared \textbf{CDXCore} library; reduced device change detection latency \textbf{from 2--3 minutes to under 4 seconds} (\textbf{97\% reduction}), with the module adopted across multiple hardware diagnostic APIs.
+\item Replaced a service-based device discovery architecture (which required a \textbf{2-3 minute of manual service restart} per hardware change) by engineering a \textbf{real-time WMI monitoring module} (\textbf{ManagementEventWatcher} + \textbf{WQL} on Win32\_PnPEntity) packaged into the shared \textbf{Common} library; reduced device change detection latency \textbf{from 2-3 minutes to under 4 seconds} (\textbf{97\% reduction}), with the module adopted across multiple hardware diagnostic APIs.
 
 \item Configured \textbf{Azure Pipelines} to trigger \textbf{NuGet package builds}, publishing the \textbf{Business Logic} package (with required dependency NuGets) integrated into the \textbf{C\# Wrapper} layer to produce the \textbf{final consolidated NuGet package} (bundling all layers including Native \textbf{C++ DLL}) for testing and client consumption.
 
@@ -64,7 +64,7 @@
 %-------------------- EDUCATION --------------------
 \section*{Education}
 
-\textbf{B.Tech in Computer Science and Engineering} -- CGPA: 8.01/10 \hfill May 2023 \\
+\textbf{B.Tech in Computer Science and Engineering} - CGPA: 8.01/10 \hfill May 2023 \\
 North Eastern Regional Institute of Science and Technology (NERIST), Arunachal Pradesh
 
 \end{document}

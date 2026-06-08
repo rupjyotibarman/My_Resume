@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.18)  24 MAY 2026 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.18)  8 JUN 2026 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,7 +233,12 @@ Package hyperref Info: Link coloring OFF on input line 17.
 \@outlinefile=\write3
 \openout3 = `Rupjyoti_Resume.out'.
 
- [1
+
+Overfull \hbox (12.15057pt too wide) in paragraph at lines 52--53
+\T1/cmr/m/n/10 by en-gi-neer-ing a \T1/cmr/bx/n/10 real-time WMI mon-i-tor-ing mod-ule \T1/cmr/m/n/10 (\T1/cmr/bx/n/10 ManagementEventWatcher \T1/cmr/m/n/10 + \T1/cmr/bx/n/10 WQL \T1/cmr/m/n/10 on Win32_PnPEntity)
+ []
+
+[1
 
 {C:/Users/rupba/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Rupjyoti_Resume.aux)
  ***********
@@ -252,9 +257,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,995b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\rupba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on Rupjyoti_Resume.pdf (1 page, 65922 bytes).
+Output written on Rupjyoti_Resume.pdf (1 page, 66338 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
+ 211 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

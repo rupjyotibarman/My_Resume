@@ -24,11 +24,11 @@
 
 %-------------------- SUMMARY --------------------
 \section*{Summary}
-\textbf{.NET Backend Developer} with \textbf{3 years} of experience designing and delivering \textbf{hardware diagnostic APIs} and \textbf{system-level platforms} for \textbf{HP PC Hardware Diagnostics}, HP's official diagnostic application. Proven expertise in \textbf{C\#}, \textbf{ASP.NET Core}, and \textbf{managed-unmanaged interoperability} (P/Invoke, Native C++ DLL integration), with hands-on experience in \textbf{decoupled NuGet-based architectures}, \textbf{WMI-based real-time monitoring}, and \textbf{Windows System APIs} (WUA, HPCMSL, DeviceIoControl). Experienced in \textbf{Clean Architecture}, \textbf{Factory Pattern}, \textbf{Entity Framework Core}, and \textbf{Azure Pipelines}, with a track record of eliminating third-party release dependencies, reducing diagnostic development cycles, and collaborating with \textbf{cross-functional global teams} across India, Taiwan, and the US.
+\textbf{.NET Backend Developer} with \textbf{3 years} of experience building scalable backend applications, system-level diagnostic platforms, and web solutions for \textbf{HP}. Skilled in \textbf{C\#}, \textbf{ASP.NET Core}, \textbf{Web API}, \textbf{Entity Framework Core}, and \textbf{React}, with experience designing decoupled architectures, integrating native C++ components, and developing enterprise-grade solutions. Proven ability to deliver high-impact features, optimize system performance, and collaborate with global engineering teams across India, Taiwan, and the US.
 
 %-------------------- SKILLS --------------------
 \section*{Skills}
-\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+\begin{itemize}[leftmargin=*, itemsep=3pt, parsep=0pt, topsep=2pt]
     \item \textbf{Languages:} C\#, C++, SQL, JavaScript, Python
     \item \textbf{Frameworks \& Libraries:} ASP.NET Core (Web API, MVC), Entity Framework Core, WPF, React, Bootstrap, jQuery, LINQ
     \item \textbf{Windows APIs \& Interop:} WMI, WQL, ManagementEventWatcher, WUA API, HPCMSL, DeviceIoControl, P/Invoke, Win32 APIs
@@ -43,21 +43,21 @@
 \textbf{Software Developer, BoldTek India Pvt. Ltd. - Guwahati} \hfill June 2023 - Present \\
 \textbf{Client: Hewlett-Packard (HP)}
 
-\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt, topsep=2pt]
+\begin{itemize}[leftmargin=*, itemsep=5pt, parsep=0pt, topsep=2pt]
 
-\item Led the India team in migrating from a \textbf{shared RPC-based Windows Service architecture} to a \textbf{decoupled three-layer NuGet-based architecture} (\textbf{Business Logic}, \textbf{C\# Interop Wrapper} via \textbf{P/Invoke}, Native \textbf{C++ DLL}) with \textbf{Factory Pattern}-based dependency injection; achieved \textbf{100\% elimination of third-party release delays} (previously 10--15 days) and reduced \textbf{diagnostic development cycle from 4 to 3 sprints} (40 to 30 working days, \textbf{25\% reduction}) by removing 2 redundant architectural layers, resolving cross-team unhandled exceptions and \textbf{sleep and hibernate-related service failures} in \textbf{HP PC Hardware Diagnostics}.
+\item Engineered 2 production features in an \textbf{ASP.NET Core MVC} application (Controller-Service-Repository, \textbf{EF Core Code-First}, SQL Server, JavaScript, Bootstrap); built an \textbf{ODM self-service dashboard} with 3-tier RBAC (Viewer, ODM, Admin) for INI configuration management, verification submission, and approval tracking with INI key-value validation across \textbf{1000+ HP NPI config files}; developed a \textbf{Release Notes Dashboard} replacing manual Excel-based tracking for the HP Factory Diagnostic team.
 
-\item Migrated \textbf{6 hardware diagnostic modules} (Storage: \textbf{DRV Read/Verify}, \textbf{SMART Health Monitor}, \textbf{SMART Data Collection}; Network: \textbf{NIC IRQ Verification}, \textbf{ROM/MAC Validation}; Audio: \textbf{Audio Playback Test}) onto the new \textbf{NuGet architecture}; additionally engineered \textbf{2 diagnostic modules from scratch} -- \textbf{Driver Update Discovery} (\textbf{WUA API}) and \textbf{BIOS Update Check} (\textbf{HPCMSL}, commercial systems) -- consolidating all into a \textbf{centralized diagnostic backend} supporting multiple HP client applications with zero external service dependency.
+\item Built a \textbf{React}-based \textbf{Diagnostic Release Tracking Portal} (POC) using \textbf{React Hooks}, \textbf{React Router}, and reusable components with an \textbf{ASP.NET Core Web API} backend; centralized tracking of diagnostic releases, NuGet package versions, issue resolutions, and development milestones.
 
-\item Replaced a service-based device discovery architecture (requiring a \textbf{2--3 minute service restart} per hardware change) by engineering a \textbf{real-time WMI monitoring module} (\textbf{ManagementEventWatcher} and \textbf{WQL} on Win32\_PnPEntity) into the shared \textbf{"Common"} library; reduced detection latency \textbf{from 2--3 minutes to under 4 seconds} (\textbf{97\% reduction}), adopted across multiple hardware diagnostic APIs.
+\item Led the India team in migrating from a \textbf{shared RPC-based Windows Service architecture} to a \textbf{decoupled three-layer NuGet-based architecture} (Business Logic, C\# Interop Wrapper via P/Invoke, Native C++ DLL) with \textbf{Factory Pattern}-based dependency injection; achieved \textbf{100\% elimination of third-party release delays} (previously 10--15 days) and \textbf{reduced, diagnostic development cycle} from 4 to 3 sprints (40 to 30 working days, \textbf{25\% reduction}) by removing 2 redundant architectural layers, resolving cross-team unhandled exceptions and sleep and hibernate-related service failures in \textbf{HP PC Hardware Diagnostics}.
 
-\item Configured \textbf{Azure Pipelines} to trigger \textbf{NuGet package builds}, publishing the \textbf{Business Logic} package (with dependencies) into the \textbf{.NET Wrapper} layer to produce the \textbf{final consolidated NuGet package} (bundling all layers including Native \textbf{C++ DLL}) for testing and client consumption.
+\item Migrated \textbf{6 hardware diagnostic modules} ( \textbf{Storage:} DRV Read/Verify, SMART Health Monitor, SMART Data Collection; \textbf{Network:} NIC IRQ Verification, ROM/MAC Validation; \textbf{Audio:} Audio Playback Test) onto the new \textbf{Decoupled Architecture}; additionally \textbf{engineered 2 diagnostic modules} from scratch - \textbf{Driver Update Discovery} (WUA API) and \textbf{BIOS Update Check} (HPCMSL, commercial systems) - consolidating all into a \textbf{centralized diagnostic backend} supporting multiple HP client applications with zero external service dependency.
+
+\item Replaced a service-based device discovery architecture (requiring a 2 to 3 minute service restart per hardware change) by \textbf{engineering a real-time WMI monitoring module} (ManagementEventWatcher and WQL on Win32\_PnPEntity) into the shared \textbf{"Common"} library; reduced detection latency \textbf{from 2 to 3 minutes to under 4 seconds} (\textbf{97\% reduction}), adopted across multiple hardware diagnostic APIs.
+
+\item Configured \textbf{Azure Pipelines} to trigger \textbf{NuGet package builds}, publishing the Business Logic package (with dependencies) into the .NET Wrapper layer to produce the final consolidated NuGet package (bundling all layers including Native C++ DLL) for testing and client consumption.
 
 \item Verified diagnostic modules using a \textbf{WPF-based API testing application} for end-to-end UI-level verification alongside \textbf{MSTest} unit test projects across \textbf{Business Logic} and \textbf{.NET Wrapper} layers, leveraging \textbf{Moq} for dependency mocking to ensure reliability prior to client integration.
-
-\item Engineered 2 production features in an \textbf{ASP.NET Core MVC} application (Controller-Service-Repository, \textbf{EF Core Code-First}, \textbf{SQL Server}, \textbf{JavaScript}, \textbf{Bootstrap}); built an \textbf{ODM self-service dashboard} with 3-tier RBAC (Viewer, ODM, Admin) for INI configuration management, verification submission, and approval tracking with \textbf{INI key-value validation} across \textbf{1000+ HP NPI config files}; developed a \textbf{Release Notes Dashboard} replacing manual Excel-based tracking for the HP Factory Diagnostic team.
-
-\item Built a \textbf{React}-based \textbf{Diagnostic Release Tracking Portal} (POC) using \textbf{React Hooks}, \textbf{React Router}, and reusable components with an \textbf{ASP.NET Core Web API} backend; centralized tracking of diagnostic releases, \textbf{NuGet} package versions, issue resolutions, and development milestones.
 
 \item Partnered with cross-functional global teams \textbf{(India, Taiwan, US)} to deliver features, debug production issues, and align on diagnostic API design across release cycles.
 
